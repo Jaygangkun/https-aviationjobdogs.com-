@@ -11,3 +11,14 @@ Updated: 2020-12-08 03:31:32
 
 */
 
+.intro-banner-colums{
+    text-align: center;
+}
+
+.plane-fly{
+    display: inline-block;
+}
+
+.plane-fly img{
+    position: relative;
+}

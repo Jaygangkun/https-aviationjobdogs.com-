@@ -1,0 +1,74 @@
+function geoip_detect2_get_info_from_ip($ip, $locales = null, $options = array()) { ... }
+.job_filters_links { display: none; }
+
+.ui-menu li:last-child {}
+	
+body .new-category-box .category-box-counter { display: none !important; }
+.new-header #header-container { 
+    margin-top: 90px;
+}
+
+.admin-bar .new-header #header-container { 
+    margin-top: 40px;
+}
+
+@media (max-width: 1099px) {
+    .admin-bar .new-header #header-container {
+        margin-top: 0px;
+        top: 60px;
+    }
+
+    .new-header #header-container {
+        margin-top: 0px;
+        top: 100px;
+    }
+
+    .admin-bar #wrapper.wrapper-with-transparent-header.new-header {
+        padding-top: 64px !important;
+        position: relative;
+    }
+
+    #wrapper.wrapper-with-transparent-header.new-header {
+        padding-top: 90px !important;
+        position: relative;
+    }
+
+    .intro-banner.dark-overlay .background-image-container{
+        background-color: black;
+        background-size: contain;
+    }
+
+    .new-header #logo_nh img{
+        max-height: 60px !important;
+    }
+}
+
+@media (max-width: 375px) {
+    #wrapper.wrapper-with-transparent-header.new-header {
+        padding-top: 57px !important;
+    }
+
+    .new-header #header-container {
+        top: 65px;
+    }
+
+    .intro-banner.dark-overlay .background-image-container{
+        background-position: top;
+        background-position-y: 100px;
+    }
+
+    .intro-banner-colums{
+        padding-top: 60px;
+    }
+}
+.page-template-template-jobs-no-map .container.wpjm-container.right-sidebar {
+    margin-top: 120px;
+}
+
+.plane-fly{
+    display: inline-block;
+}
+
+.plane-fly img{
+    position: relative;
+}

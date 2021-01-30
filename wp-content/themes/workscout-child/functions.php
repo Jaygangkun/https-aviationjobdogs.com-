@@ -27,3 +27,5 @@ function restore_slider_behavior( $settings ) {
   return $settings;
 }
 add_filter( 'advanced-ads-slider-settings', 'restore_slider_behavior' );
+
+wp_enqueue_script( 'script', get_stylesheet_directory_uri() . '/js/script.js?v='.date('ymdhis'), array ( 'jquery' ), 1.1, true);
